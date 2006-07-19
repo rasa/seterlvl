@@ -1,0 +1,17 @@
+# Microsoft Developer Studio Generated Dependency File, included by seterlvl.mak
+
+.\seterlvl.cpp : \
+	".\version.h"\
+	{$(INCLUDE)}"debug.h"\
+	{$(INCLUDE)}"getopt.h"\
+	{$(INCLUDE)}"Optimize.h"\
+	{$(INCLUDE)}"Stackwalker.h"\
+	{$(INCLUDE)}"SystemMessage.h"\
+	{$(INCLUDE)}"ver_defaults.h"\
+	
+
+.\seterlvl.rc : \
+	".\seterlvl.ico"\
+	".\version.h"\
+	{$(INCLUDE)}"ver_defaults.h"\
+	
