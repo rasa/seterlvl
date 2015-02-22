@@ -116,6 +116,11 @@ int main(int argc, char **argv) {
 				exit(0);
 				break;
 
+			case ':':
+				fprintf(stderr, "Option -%c requires an operand\n", optopt);
+				usage();
+				exit(1);
+
 			default:
 				int rv = 0;
 				if (optind < argc && argv[optind])
