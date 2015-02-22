@@ -100,14 +100,7 @@ int main(int argc, char **argv) {
 		switch (c) {
 			case 'v': // version
 				printf("%s - Version %s - %s\n", APPNAME, APPVERSION, __DATE__);
-				printf(APPCOPYRIGHT "\n\n");
-
-				printf(
-"This program is distributed in the hope that it will be useful,\n"
-"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
-"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
-"GNU General Public License for more details.\n");
-
+				printf(APPCOPYRIGHT);
 				exit(0);
 				break;
 
