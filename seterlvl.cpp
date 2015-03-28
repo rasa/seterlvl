@@ -10,10 +10,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "Stackwalker.h"
-#include "Optimize.h"
-#include "SystemMessage.h"
-#include "debug.h"
 #include "getopt.h"
 
 #include "version.h"
